@@ -24,7 +24,7 @@ if (isset($_SESSION['user'])) {
         <label>Логин</label>
         <input type="text" name="login" placeholder="Введите свой логин">
         <label>Пароль</label>
-        <input type="password" name="password" placeholder="Введите пароль">
+        <input type="password" name="password" placeholder="Введите пароль" required>
         <button type="submit">Войти</button>
         <p>
             У вас нет аккаунта? - <a href="register.php">зарегистрируйтесь</a>!

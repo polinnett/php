@@ -26,12 +26,12 @@
         <label>Изображение профиля</label>
         <input type="file" name="avatar">
         <label>Пароль</label>
-        <input type="password" name="password" placeholder="Введите пароль">
+        <input type="password" name="password" placeholder="Введите пароль" required>
         <label>Подтверждение пароля</label>
-        <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
+        <input type="password" name="password_confirm" placeholder="Подтвердите пароль" required>
         <button type="submit">Войти</button>
         <p>
-            У вас уже есть аккаунт? - <a href="/">авторизируйтесь</a>!
+            У вас уже есть аккаунт? - <a href="index.php">авторизируйтесь</a>!
         </p>
         <?php
             if (isset($_SESSION['message'])) {

@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 p {
     margin: 10px 0;
 }
@@ -33,7 +37,7 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    max-width: 600px;
 }
 
 input {
@@ -51,6 +55,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background: #9d9898;
+}
+
 .msg {
     border: 2px solid #ffa908;
     border-radius: 3px;
@@ -63,9 +71,13 @@ button {
     color: #b7625c;
 }
 
+.profile {
+    background: #f6d3e7;
+}
+
 .profile__wrapper {
     display: flex;
-    gap: 150px;
+    gap: 250px;
 }
 
 .profile__info {
@@ -73,6 +85,16 @@ button {
     flex-direction: column;
 }
 
-.profile__msg {
-
+.profile__info a {
+    margin-top: 10px;
+    font-size: 18px;
 }
+
+.profile__info h2 {
+    margin: 10px 0px 0px 0px;
+    color: #64d56a;
+}
+
+/* .profile__msg {
+
+} */

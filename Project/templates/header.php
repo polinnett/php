@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой блог</title>
-    <link rel="stylesheet" type="text/css" href="/phplabs/Project/templates/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/phplabs/Project/templates/style/style.css">
 </head>
 <body>
 <table class="layout">
